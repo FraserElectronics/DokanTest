@@ -39,17 +39,24 @@ namespace DokanTest
             string [] subdirs = filename.Split( new char [] { '\\' } );
             if ( subdirs.Length > 0 )
             {
-                for( int i = 0 ; i < subdirs.Length - 1 ; i++ )
+                for ( int i = 0 ; i < subdirs.Length - 1 ; i++ )
                 {
-                    var match = dir.Children.FirstOrDefault( x => x.Name == subdirs[ i ] );
-                    if ( match == null )
+                    if ( subdirs[ i ].Length == 0 )
                     {
-                        dir = null;
-                        break;
+                        dir = Root;
                     }
                     else
                     {
-                        dir = match;
+                        var match = dir.Children.FirstOrDefault( x => x.Name == subdirs[ i ] );
+                        if ( match == null )
+                        {
+                            dir = null;
+                            break;
+                        }
+                        else
+                        {
+                            dir = match;
+                        }
                     }
                 }
 

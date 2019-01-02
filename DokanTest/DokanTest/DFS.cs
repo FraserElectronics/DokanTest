@@ -28,14 +28,16 @@ namespace DokanTest
         {
             NtStatus ret = DokanResult.Error;
 
-            Console.WriteLine( $"CreateFile {fileName},{access.ToString()},{share.ToString()},{mode.ToString()},{options.ToString()},{attributes.ToString()}" );
+            Console.WriteLine( $"CreateFile FILENAME:{fileName},ACCESS:{access.ToString()},SHARE:{share.ToString()},MODE:{mode.ToString()},OPTS:{options.ToString()},ATTR:{attributes.ToString()},INFO:{info.ToString()}" );
 
-            if ( fileName.Equals( "InRoot.txt" ) )
+            if ( info.DeleteOnClose == true )
             {
-                Console.WriteLine();
+                Console.WriteLine( " !!! DELETE ON CLOSE !!!" );
             }
+
             if ( info.IsDirectory == true )
             {
+                Console.WriteLine( " -- IS DIRECTORY" );
                 var dir = Root.FindDirectoryFrom( fileName );
                 switch ( mode )
                 {
@@ -68,14 +70,29 @@ namespace DokanTest
                         ret = DokanResult.AccessDenied;
                         break;
                 }
+
+                return DokanResult.Success;
             }
             else
             {
+                if ( fileName.Contains( "desktop.ini" ) )
+                {
+                    Console.WriteLine();
+                }
+                Console.WriteLine( " -- IS FILE" );
                 var readWriteAttributes = (access & DataAccess) == 0;
                 var readAccess = (access & DataWriteAccess) == 0;
 
                 var dir = Root.FindDirectoryFrom( fileName );
+                if ( dir != null ) Console.WriteLine( $" ## HAVE DIRECTORY {dir.Name}" );
+
                 var file = Root.FindFileFrom( fileName );
+                if ( file != null ) Console.WriteLine( $" ## HAVE FILE {file.Name}" );
+
+                if ( dir != null )
+                {
+                    Console.WriteLine( $"  !! IS ACTUALLY A DIRECTORY {info.ToString()}" );
+                }
 
                 switch ( mode )
                 {
@@ -96,13 +113,13 @@ namespace DokanTest
                     case FileMode.Open:
                         if ( dir != null || file != null )
                         {
-                            if ( readWriteAttributes || dir != null )
+                            if ( ( access & DokanNet.FileAccess.Delete ) == DokanNet.FileAccess.Delete )
                             {
-                                if ( ( access & DokanNet.FileAccess.Delete ) == DokanNet.FileAccess.Delete )
-                                {
-                                    ret = DokanResult.AccessDenied;
-                                }
-                                else
+                                ret = DokanResult.AccessDenied;
+                            }
+                            else
+                            {
+                                if ( readWriteAttributes || dir != null )
                                 {
                                     info.IsDirectory = ( dir != null );
                                     info.Context = new object();
@@ -113,7 +130,14 @@ namespace DokanTest
                         }
                         else
                         {
-                            ret = DokanResult.FileNotFound;
+                            if ( file == null )
+                            {
+                                ret = DokanResult.FileNotFound;
+                            }
+                            else
+                            {
+                                ret = DokanResult.Success;
+                            }
                         }
                         break;
                     case FileMode.OpenOrCreate:
@@ -123,15 +147,22 @@ namespace DokanTest
                         {
                             ret = DokanResult.FileNotFound;
                         }
+                        else
+                        {
+                            ret = DokanResult.Success;
+                        }
                         break;
                 }
 
                 try
                 {
-                    info.Context = new object();
-                    if ( ( dir != null || file != null ) && ( mode == FileMode.OpenOrCreate || mode == FileMode.Create ) )
+                    if ( ret == DokanResult.Success )
                     {
-                        ret = DokanResult.AlreadyExists;
+                        info.Context = new object();
+                        if ( ( dir != null || file != null ) && ( mode == FileMode.OpenOrCreate || mode == FileMode.Create ) )
+                        {
+                            ret = DokanResult.AlreadyExists;
+                        }
                     }
                 }
                 catch ( UnauthorizedAccessException )
@@ -156,6 +187,11 @@ namespace DokanTest
                 }
             }
 
+            Console.WriteLine( $"  ** RETURNED {ret.ToString()} FROM CreateFile" );
+            if ( ret == NtStatus.ObjectNameNotFound )
+            {
+                Console.WriteLine();
+            }
             return ret;
         }
 
@@ -380,8 +416,9 @@ namespace DokanTest
         public NtStatus GetFileSecurity( string fileName, out FileSystemSecurity security, AccessControlSections sections, DokanFileInfo info )
         {
             Console.WriteLine( $"GetFileSecurity {fileName}" );
+
             security = null;
-            return DokanResult.Error;
+            return DokanResult.Success;
         }
 
         public NtStatus GetVolumeInformation( out string volumeLabel, out FileSystemFeatures features, out string fileSystemName, out uint maximumComponentLength, DokanFileInfo info )
