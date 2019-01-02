@@ -1,0 +1,2606 @@
+01/02/2019 12:21:30 - [DokanNet] MountedProxy:
+01/02/2019 12:21:30 - [DokanNet] GetVolumeInformationProxy:
+01/02/2019 12:21:30 - [DokanNet] 	Context	{<null>, False, False, False, False, #0, False, False}
+01/02/2019 12:21:30 - [DokanNet] 	Context	{<null>, False, False, False, False, #4, False, False}
+Mounted
+GetVolumeInformation
+01/02/2019 12:21:30 - [DokanNet] 	VolumeNameBuffer	Altair
+01/02/2019 12:21:30 - [DokanNet] 	FileSystemNameBuffer	AltairFS
+01/02/2019 12:21:30 - [DokanNet] 	VolumeSerialNumber	46104728
+01/02/2019 12:21:30 - [DokanNet] MountedProxy Return : Success
+01/02/2019 12:21:30 - [DokanNet] 	FileSystemFlags	None
+01/02/2019 12:21:30 - [DokanNet] 	MaximumComponentLength	256
+01/02/2019 12:21:30 - [DokanNet] GetVolumeInformationProxy Return : Success
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \autorun.inf,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf Return : ObjectNameNotFound
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadData, ReadExtendedAttributes, ReadAttributes, ReadPermissions, Synchronize
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \autorun.inf,GenericRead,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf Return : ObjectNameNotFound
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadData, ReadExtendedAttributes, ReadAttributes, ReadPermissions, Synchronize
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \autorun.inf,GenericRead,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \autorun.inf Return : ObjectNameNotFound
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:33 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:33 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \AutoRun.inf
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+CloseFile \
+01/02/2019 12:21:33 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \AutoRun.inf,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \AutoRun.inf Return : ObjectNameNotFound
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:33 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:33 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:33 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:33 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:33 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:33 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:33 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:33 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:33 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:33 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:33 - [DokanNet] 	FileName	\
+01/02/2019 12:21:33 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:33 - [DokanNet] 	CreationTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:33
+01/02/2019 12:21:33 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:33 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,Normal
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,Normal
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,Normal
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:34 - [DokanNet] 	CreationTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:34
+01/02/2019 12:21:34 - [DokanNet] 	Length	0
+01/02/2019 12:21:34 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:34 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:34 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:34 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:34 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:34 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:34 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:34 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+CloseFile \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+CloseFile \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	ReadAttributes, Synchronize
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadAttributes, Synchronize,ReadWrite,Open,None,Normal
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	FileName	\SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:35 - [DokanNet] 	CreationTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:35
+01/02/2019 12:21:35 - [DokanNet] 	Length	0
+01/02/2019 12:21:35 - [DokanNet] GetFileInformationProxy : \SubDir2 Return : Success
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CleanupProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CloseFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \SubDir2,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \SubDir2 Return : Error
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:35 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:35 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:35 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:35 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:35 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:35 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:35 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \desktop.ini
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	ReadData, ReadExtendedAttributes, ReadAttributes, ReadPermissions, Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite, Delete
+GetFileInformation \
+01/02/2019 12:21:36 - [DokanNet] 	FileName	\
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	SequentialScan
+01/02/2019 12:21:36 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+01/02/2019 12:21:36 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:36
+CreateFile \desktop.ini,GenericRead,ReadWrite, Delete,Open,SequentialScan,0
+01/02/2019 12:21:36 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \desktop.ini Return : ObjectNameNotFound
+01/02/2019 12:21:36 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite, Delete
+Cleanup \
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CloseFile \
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:36 - [DokanNet] 	FileName	\
+01/02/2019 12:21:36 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 	CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:36 - [DokanNet] 	FileName	\
+01/02/2019 12:21:36 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 	CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	rawSearchPattern	*
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, *
+01/02/2019 12:21:36 - [DokanNet] 	FileName	SubDir1
+01/02/2019 12:21:36 - [DokanNet] 		Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 		CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		Length	0
+01/02/2019 12:21:36 - [DokanNet] 	FileName	SubDir2
+01/02/2019 12:21:36 - [DokanNet] 		Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 		CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		Length	0
+01/02/2019 12:21:36 - [DokanNet] 	FileName	desktop.ini
+01/02/2019 12:21:36 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:36 - [DokanNet] 		CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		Length	123
+01/02/2019 12:21:36 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:36 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:36 - [DokanNet] 		CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 		Length	678
+01/02/2019 12:21:36 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:36 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:36 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:36 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:36 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:36 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:36 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:36 - [DokanNet] 	FileName	\
+01/02/2019 12:21:36 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:36 - [DokanNet] 	CreationTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:36
+01/02/2019 12:21:36 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:36 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:36 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:36 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:36 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:38 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:38 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:38 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:38 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:38 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:38 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:38 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:38 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:38 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:38 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:38 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:38 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:38 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:38 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:38 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:38 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadPermissions
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadPermissions,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	rawSearchPattern	*
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, *
+01/02/2019 12:21:39 - [DokanNet] 	FileName	SubDir1
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	0
+01/02/2019 12:21:39 - [DokanNet] 	FileName	SubDir2
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	0
+01/02/2019 12:21:39 - [DokanNet] 	FileName	desktop.ini
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	123
+01/02/2019 12:21:39 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	678
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadAttributes, Delete, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	rawSearchPattern	InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	678
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	rawSearchPattern	InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:39 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:39 - [DokanNet] 		CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 		Length	678
+01/02/2019 12:21:39 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:39 - [DokanNet] 	FileName	\
+01/02/2019 12:21:39 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:39 - [DokanNet] 	CreationTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:39
+01/02/2019 12:21:39 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:39 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:39 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:39 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:39 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:39 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:39 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:39 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:39 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:39 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, ReadExtendedAttributes, ReadAttributes, ReadPermissions, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,GenericRead,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] GetDiskFreeSpaceProxy:
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+GetDiskFreeSpace
+01/02/2019 12:21:40 - [DokanNet] 	FreeBytesAvailable	536870912
+01/02/2019 12:21:40 - [DokanNet] 	TotalNumberOfBytes	1073741824
+01/02/2019 12:21:40 - [DokanNet] 	TotalNumberOfFreeBytes	536870912
+01/02/2019 12:21:40 - [DokanNet] GetDiskFreeSpaceProxy Return : Success
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	DeleteOnClose
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,Delete,Delete,Open,DeleteOnClose,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes, Delete, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	SequentialScan
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete, Synchronize,ReadWrite, Delete,Open,SequentialScan,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+GetFileInformation \
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	DeleteOnClose
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,Delete,Delete,Open,DeleteOnClose,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadAttributes, Delete, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	SequentialScan
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete, Synchronize,ReadWrite, Delete,Open,SequentialScan,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:40 - [DokanNet] 	FileName	\
+01/02/2019 12:21:40 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:40 - [DokanNet] 	CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:40 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	rawSearchPattern	InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:40 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:40 - [DokanNet] 		CreationTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:40
+01/02/2019 12:21:40 - [DokanNet] 		Length	678
+01/02/2019 12:21:40 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:40 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:40 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:40 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:40 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:40 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:40 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:40 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:40 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:40 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:41 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:41 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:41 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:41 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:41 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:41 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:41 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:41 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:41 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:41 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:41 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:41 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:41 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:41 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:41 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:41 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:41 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:41 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:41 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	Normal
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,ReadData, Synchronize,ReadWrite, Delete,Open,None,Normal
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	DeleteOnClose
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,Delete,Delete,Open,DeleteOnClose,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadAttributes, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadAttributes, Delete, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	SequentialScan
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \InRoot.txt,ReadAttributes, Delete, Synchronize,ReadWrite, Delete,Open,SequentialScan,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \InRoot.txt Return : ObjectNameNotFound
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	ReadData, ReadAttributes, Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadData, ReadAttributes, Synchronize,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:43 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:43 - [DokanNet] 	FileName	\
+01/02/2019 12:21:43 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:43 - [DokanNet] 	CreationTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:43 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:43 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:43 - [DokanNet] 	FileName	\
+01/02/2019 12:21:43 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:43 - [DokanNet] 	CreationTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:43 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:43 - [DokanNet] FindFilesWithPatternProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	rawSearchPattern	InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+FindFilesWithPattern \, InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 	FileName	InRoot.txt
+01/02/2019 12:21:43 - [DokanNet] 		Attributes	ReadOnly
+01/02/2019 12:21:43 - [DokanNet] 		CreationTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 		LastAccessTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 		LastWriteTime	02/01/2019 12:21:43
+01/02/2019 12:21:43 - [DokanNet] 		Length	678
+01/02/2019 12:21:43 - [DokanNet] FindFilesWithPatternProxy : \ Return : Success
+01/02/2019 12:21:43 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:43 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:43 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:43 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:43 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:43 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:43 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:43 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:43 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:43 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:43 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:44 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:44 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:44 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:44 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:44 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:44 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:44 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:44 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:45 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:45 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:45 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:45 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:45 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:45 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:45 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:45 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:45 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:45 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:45 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:45 - [DokanNet] 	FileName	\
+01/02/2019 12:21:45 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:45 - [DokanNet] 	CreationTime	02/01/2019 12:21:45
+01/02/2019 12:21:45 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:45
+01/02/2019 12:21:45 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:45
+01/02/2019 12:21:45 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:45 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:45 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:45 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:45 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:45 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:45 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:45 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:45 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:45 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:45 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:45 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:45 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:45 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:45 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:45 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:45 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:45 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:45 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:45 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:45 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:45 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:45 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:47 - [DokanNet] 	FileAccess	Synchronize
+01/02/2019 12:21:47 - [DokanNet] 	FileShare	ReadWrite
+01/02/2019 12:21:47 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:47 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:47 - [DokanNet] 	Context	{<null>, False, True, False, False, #9612, False, False}
+CreateFile \,Synchronize,ReadWrite,Open,None,0
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \ Return : Error
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:47 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:47 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:47 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:47 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:47 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:47 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:47 - [DokanNet] 	FileName	\
+01/02/2019 12:21:47 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:47 - [DokanNet] 	CreationTime	02/01/2019 12:21:47
+01/02/2019 12:21:47 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:47
+01/02/2019 12:21:47 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:47
+01/02/2019 12:21:47 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:47 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:47 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:47 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:47 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:47 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \
+01/02/2019 12:21:47 - [DokanNet] 	CreationDisposition	Open
+01/02/2019 12:21:47 - [DokanNet] 	FileAccess	ReadAttributes
+01/02/2019 12:21:47 - [DokanNet] 	FileShare	ReadWrite, Delete
+01/02/2019 12:21:47 - [DokanNet] 	FileOptions	None
+01/02/2019 12:21:47 - [DokanNet] 	FileAttributes	0
+01/02/2019 12:21:47 - [DokanNet] 	Context	{<null>, False, False, False, False, #9612, False, False}
+CreateFile \,ReadAttributes,ReadWrite, Delete,Open,None,0
+01/02/2019 12:21:47 - [DokanNet] CreateFileProxy : \ Return : Success
+01/02/2019 12:21:47 - [DokanNet] GetFileInformationProxy : \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+GetFileInformation \
+01/02/2019 12:21:48 - [DokanNet] 	FileName	\
+01/02/2019 12:21:48 - [DokanNet] 	Attributes	Directory
+01/02/2019 12:21:48 - [DokanNet] 	CreationTime	02/01/2019 12:21:48
+01/02/2019 12:21:48 - [DokanNet] 	LastAccessTime	02/01/2019 12:21:48
+01/02/2019 12:21:48 - [DokanNet] 	LastWriteTime	02/01/2019 12:21:48
+01/02/2019 12:21:48 - [DokanNet] 	Length	1234567
+01/02/2019 12:21:48 - [DokanNet] GetFileInformationProxy : \ Return : Success
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+Cleanup \
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+Cleanup \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:48 - [DokanNet] CleanupProxy : \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \
+01/02/2019 12:21:48 - [DokanNet] 	Context	{System.Object, False, True, False, False, #9612, False, False}
+CloseFile \
+01/02/2019 12:21:48 - [DokanNet] CloseFileProxy : \

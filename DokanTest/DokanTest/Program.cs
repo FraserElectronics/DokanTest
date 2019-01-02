@@ -36,7 +36,7 @@ namespace DokanTest
         public void Run()
         {
             var dokanfs = new DFS() { Root = _root };
-            dokanfs.Mount( "R:\\", DokanOptions.FixedDrive, 4 );
+            dokanfs.Mount( "R:\\", DokanOptions.DebugMode, 4 );
         }
 
         private DFolder _root;

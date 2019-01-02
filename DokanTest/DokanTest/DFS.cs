@@ -30,6 +30,10 @@ namespace DokanTest
 
             Console.WriteLine( $"CreateFile {fileName},{access.ToString()},{share.ToString()},{mode.ToString()},{options.ToString()},{attributes.ToString()}" );
 
+            if ( fileName.Equals( "InRoot.txt" ) )
+            {
+                Console.WriteLine();
+            }
             if ( info.IsDirectory == true )
             {
                 var dir = Root.FindDirectoryFrom( fileName );
@@ -193,10 +197,11 @@ namespace DokanTest
 
                 foreach ( var file in Root.Files )
                 {
+                    Console.WriteLine( $"    Adding file {file.Name} as READ-ONLY" );
                     var finfo = new FileInformation
                     {
                         FileName = file.Name,
-                        Attributes = FileAttributes.Normal,
+                        Attributes = FileAttributes.ReadOnly,
                         LastAccessTime = DateTime.Now,
                         LastWriteTime = DateTime.Now,
                         CreationTime = DateTime.Now,
@@ -283,7 +288,7 @@ namespace DokanTest
                     {
                         files.Add( new FileInformation()
                         {
-                            Attributes = FileAttributes.Normal,
+                            Attributes = FileAttributes.ReadOnly,
                             CreationTime = DateTime.Now,
                             LastAccessTime = DateTime.Now,
                             LastWriteTime = DateTime.Now,
