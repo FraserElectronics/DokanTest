@@ -39,6 +39,11 @@ namespace DokanTest
             {
                 Console.WriteLine( " -- IS DIRECTORY" );
                 var dir = Root.FindDirectoryFrom( fileName );
+                if ( dir != null )
+                {
+                    info.IsDirectory = true;
+                }
+
                 switch ( mode )
                 {
                     case FileMode.Append:
@@ -93,6 +98,8 @@ namespace DokanTest
                 {
                     Console.WriteLine( $"  !! IS ACTUALLY A DIRECTORY {info.ToString()}" );
                 }
+
+                info.IsDirectory = dir != null;
 
                 switch ( mode )
                 {

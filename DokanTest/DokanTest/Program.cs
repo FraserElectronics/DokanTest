@@ -38,10 +38,10 @@ namespace DokanTest
         {
             using ( TextWriter tw = new StreamWriter( @"c:\temp\dokantestoutput.txt" ) )
             {
-                Console.SetOut( tw );
+                //Console.SetOut( tw );
 
                 var dokanfs = new DFS() { Root = _root };
-                dokanfs.Mount( "R:\\", DokanOptions.DebugMode, 4 );
+                dokanfs.Mount( "R:\\", DokanOptions.DebugMode, 1 );
             }
         }
 
